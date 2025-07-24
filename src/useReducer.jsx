@@ -1,4 +1,5 @@
 import React, { useReducer } from 'react'
+import UseContext from './useContext';
 
 let initial = 0;
 const reducer = (state, action) => {
@@ -33,6 +34,8 @@ function UseReduce() {
                 <button onClick={() => dispatch2("decrement")}>decrement</button>
                 <button onClick={() => dispatch2("reset")}>reset</button>
             </div>
+           <p>rashi</p>
+            <UseContext  />
         </div>
     )
 }

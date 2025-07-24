@@ -1,6 +1,7 @@
 import React from 'react'
 import { useReducer } from 'react'
 import { useState } from 'react'
+import UseReduce from './useReducer'
 
 const initial = {
     firstCount: 0,
@@ -41,6 +42,8 @@ function Pratice() {
             <button onClick={() => dispatch({type: "decrement2" , value:1})}>10</button>
 
             <button onClick={() => dispatch({type: "reset"})}>reset</button>
+             <p>aflah</p>
+            <UseReduce  />
         </div>
     )
 }
