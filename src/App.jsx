@@ -6,8 +6,8 @@ import UseReduce from './useReducer'
 function App() {
   return (
     <>
-    <Pratice />
-    {/* <UseReduce /> */}
+    {/* <Pratice /> */}
+    <UseReduce />
 
     </>
 
